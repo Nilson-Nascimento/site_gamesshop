@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+        font-family: "Bungee Spice", sans-serif; 
+}
+
+body, 
+input,
+textarea{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header{
+    padding: 16px 0;
+    background-color: #182c51;
+    color: #ecf0f1;
+}
+
+header h1{
+    font-weight: normal;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 8px; /* Aplica espaçamento entre os li*/
+    font-size: 10px;
+}
+
+header a{
+    color: #ecf0f1;
+    text-decoration: none; /* Remove as underlines dos textos*/
+}
+
+header a:hover{
+    text-decoration: underline; /* Coloca underline nos texto quando o mouse está sobre o texto */
+}
+
+.container{
+    max-width: 1200px;  /* Largura máxima que vai ocupar a tela */
+    width:100%; /* Quantidade máxima de largura que vai ser usada de max-width*/
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img{
+    height: 24px;
+}
+
+.brands-list li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    align-items:flex-start;
+}
+
+section{
+    padding: 24px 0;
+    color: #182c51;
+}
+
+section h2,
+section h3,
+form button{
+    font-family: "Bungee", sans-serif; 
+    margin-bottom: 16px;
+    font-weight: normal;
+}
+
+section p{
+    margin-bottom: 16px;
+}
+
+.store-Front{
+    margin-right: 32px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+form input, 
+textarea,
+button{
+    display: block;
+    margin-bottom: 16px;
+    /*height: 30px;*/
+    width: 300px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color:#182c51 ;
+    color: white;
+    border: none;
+    cursor: pointer; /* Aplica a função de clicar com a mão*/
+}
+
+form button:hover{
+    background-color: #5a83d1;
+}
+
+input:focus,
+textarea:focus{
+    outline-color:red;
+}
+
+footer{
+    background-color:#182c51;
+    color: white;
+    padding: 18px;;
+}
